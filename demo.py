@@ -150,7 +150,7 @@ def evaluate(eval_loader, model, args):
 def run(args):
     if not os.path.exists('outputs'):
         os.mkdir('outputs')
-
+    print('here I am')
     # Select the optimization criterion/task
     if args.loss=='CE':
         # Classification
